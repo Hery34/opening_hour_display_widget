@@ -13,19 +13,19 @@ flutter pub add opening_hour_display_widget
 
 ## Customizable options :
 
-String openTitle
-String closeTitle
-String openDescription
-String closeDescription
-Color openColor (Text color if open)
-Color closeColor (Text color if closed)
-double boxWidth (Wdith of the widget)
-double iconSize (Width of the clock Icon)
-double textSize
-int openHour (define in int the open Hour)
-int closeHour (define in int the closed Hour)
-Color openHourBackgroundColor
-Color closeHourBackgroundColor
+String openTitle,
+String closeTitle,
+String openDescription,
+String closeDescription,
+Color openColor (Text color if open),
+Color closeColor (Text color if closed),
+double boxWidth (Wdith of the widget),
+double iconSize (Width of the clock Icon),
+double textSize,
+int openHour (define in int the open Hour),
+int closeHour (define in int the closed Hour),
+Color openHourBackgroundColor,
+Color closeHourBackgroundColor,
 
 ## Example
 
