@@ -1,6 +1,6 @@
 name: opening_hour_display_widget
 description: "A Flutter plugin to display opening hours of a business, with a customizable design."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Hery34/opening_hour_display_widget
 
 environment:
