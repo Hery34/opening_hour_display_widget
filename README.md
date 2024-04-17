@@ -1,18 +1,46 @@
 # opening_hour_display_widget
 
-A new Flutter plugin project.
+A Flutter plugin to display opening hours of a business, with a customizable design: From the front-size to
+the back-ground color, you can customize everything.The widget retrieves the system time from the mobile terminal to display the appropriate message
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Run this command on a terminal at the root of your project:
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub add opening_hour_display_widget
+```
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
-You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+## Customizable options :
+
+String openTitle
+String closeTitle
+String openDescription
+String closeDescription
+Color openColor (Text color if open)
+Color closeColor (Text color if closed)
+double boxWidth (Wdith of the widget)
+double iconSize (Width of the clock Icon)
+double textSize
+int openHour (define in int the open Hour)
+int closeHour (define in int the closed Hour)
+Color openHourBackgroundColor
+Color closeHourBackgroundColor
+
+## Example
+
+After running the command below, you should see this in your pubspec.yaml :
+
+![pubspec.yaml](assets/pubspec.yaml.png)
+
+To use it, you must first import the package
+
+![pubspec.yaml](assets/importing.png)
+
+And finally, to use it, you can do this way :
+
+![pubspec.yaml](assets/use.png)
+
+This is a screenshot of the excpected result :
+
+![pubspec.yaml](assets/screenshot.jpeg)
